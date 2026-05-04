@@ -1,13 +1,16 @@
 [project]
 name = "defi-risk-advisor-agent"
 version = "0.1.0"
-description = "Protocol-agnostic DeFi wallet risk scoring and recommendation agent"
-readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "black>=26.3.1",
     "isort>=8.0.1",
+    "kaggle>=2.1.0",
+    "kagglehub>=1.0.1",
+    "pandas>=3.0.2",
+    "pyarrow>=24.0.0",
     "pydantic-settings>=2.14.0",
+    "pytest>=9.0.3",
 ]
 
 [dependency-groups]
