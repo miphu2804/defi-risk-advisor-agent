@@ -1,0 +1,7 @@
+[project]
+name = "defi-risk-advisor-agent"
+version = "0.1.0"
+description = "Protocol-agnostic DeFi wallet risk scoring and recommendation agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
