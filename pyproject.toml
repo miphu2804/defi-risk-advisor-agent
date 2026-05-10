@@ -4,13 +4,17 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "black>=26.3.1",
+    "ipykernel>=7.2.0",
     "isort>=8.0.1",
     "kaggle>=2.1.0",
     "kagglehub>=1.0.1",
+    "matplotlib>=3.10.9",
     "pandas>=3.0.2",
+    "pip>=26.1",
     "pyarrow>=24.0.0",
     "pydantic-settings>=2.14.0",
     "pytest>=9.0.3",
+    "seaborn>=0.13.2",
 ]
 
 [dependency-groups]

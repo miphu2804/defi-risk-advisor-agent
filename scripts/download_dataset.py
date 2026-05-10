@@ -26,7 +26,7 @@ def main() -> None:
 
     downloader = KaggleDownloader()
     dest = get_data_path(args.dest)
-    result = downloader.download(dataset, dest)
+    result = downloader.download(dataset, dest, app_config.DATASET_FILE)
     logger.info("Done: %s", result)
 
 
